@@ -1,0 +1,30 @@
+.carousel img {
+    height: 800px;
+}
+
+.heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+    /* underline ektu niche namabo kemne> */
+}
+
+.card chi{
+    width: 18rem;
+    padding-bottom: 10%;
+    align-items: stretch;
+}
+
+.row    {
+    display: flex;
+}
+
+.chi:hover {
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+}
+
+.card-img-top {
+    height: 300px;
+}

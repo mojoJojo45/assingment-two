@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assingment-3</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container-fluid">
+      <!-- logo -->
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="logo.png" alt="Bootstrap" width="30" height="25">
+     </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="https://web.facebook.com/groups/simpsonsbortposting/announcements">Discussion</a>
+          <a class="nav-link" href="https://web.facebook.com/groups/simpsonsbortposting/media">Media</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!-- navbar ends here -->
+
+<!-- carousel starts here -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="one.jpg" class="d-block w-100" alt="...">
+        <!-- caption -->
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Milhouse playing Thrillhouse</h2>
+          <!-- <p>Some representative placeholder content for the first slide.</p> -->
+        </div>
+        <!-- caption -->
+      </div>
+      <div class="carousel-item">
+        <img src="two.jpg" class="d-block w-100" alt="...">
+        <!-- caption -->
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Hello fellow children</h2>
+          <!-- <p>Some representative placeholder content for the first slide.</p> -->
+        </div>
+        <!-- caption -->
+      </div>
+      <div class="carousel-item">
+        <img src="three.jpg" class="d-block w-100" alt="...">
+        <!-- caption -->
+        <div class="carousel-caption d-none d-md-block">
+          <h2>I think it's neat</h2>
+          <!-- <p>Some representative placeholder content for the first slide.</p> -->
+        </div>
+        <!-- caption -->
+      </div>
+      <div class="carousel-item">
+        <img src="four.jpg" class="d-block w-100" alt="...">
+        <!-- caption -->
+        <div class="carousel-caption d-none d-md-block">
+          <h2>I've waited 23 years for this moment</h2>
+          <!-- <p>Some representative placeholder content for the first slide.</p> -->
+        </div>
+        <!-- caption -->
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- carousel ends here -->
+
+<!-- cards begins here -->
+<div class="container">
+<h2 class="animate__animated animate__bounce heading text-center">Our Products</h2>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+   
+  <div class="col">
+      <div class="card chi border-warning align-items-stretch">
+        <img src="one.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Thrillhouse</h5>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, ratione!</p>
+          <a href="#" class="btn btn-warning">Add to Cart</a>          
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card chi border-warning align-items-stretch">
+        <img src="two.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Secret Burns</h5>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, sed.</p>
+          <a href="#" class="btn btn-warning">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card chi border-warning align-items-stretch">
+        <img src="three.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">It's Neat</h5>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, inventore.</p>
+          <a href="#" class="btn btn-warning">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+ 
+      <div class="col">
+      <div class="card chi border-warning align-items-stretch">
+        <img src="four.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Burns Tank</h5>
+          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, placeat!</p>
+          <a href="#" class="btn btn-warning">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card chi border-warning align-items-stretch">
+        <img src="five.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Dont tell anyone</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, sint.</p>
+          <a href="#" class="btn btn-warning">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card chi border-warning align-items-stretch">
+        <img src="six.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Carribean Style</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, asperiores.</p>
+          <a href="#" class="btn btn-warning">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+  <h3 class="heading text-center">More to Come soon</h3>
+  </div>
+<!-- cards end here -->
+
+<div class="container">
+  
+</div>
+
+<!-- footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example29" class="form-control" />
+              <label class="form-label" for="form5Example29">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- footer ends -->
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>    
+</body>
+
+</html>
